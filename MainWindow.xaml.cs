@@ -1,6 +1,10 @@
-﻿using System;
+﻿using HelixToolkit.Wpf;
+using System;
 using System.Collections.Generic;
+using System.Reflection;
+using System.Security.Policy;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Media.Media3D;
 using helix = HelixToolkit.Wpf;
@@ -16,13 +20,24 @@ namespace TowerModeling
         {
             InitializeComponent();
             List<double[]> lines = ReadLines();
-            CreateTower(lines);
+
+            Model3DGroup modelGroup = CreateTower(lines);
+            // 创建模型视图
+            ModelVisual3D modelVisual = new ModelVisual3D
+            {
+                Content = modelGroup
+            };
+
+            helixView.Children.Add(modelVisual);
+            helixView.Export("D:/cvml/repos/TowerModeling/data/Tower.stl");
+
+
         }
         // 读取csv文件
         public List<double[]> ReadLines()
         {
             List<double[]> lines = new List<double[]>();
-            string[] lines1 = System.IO.File.ReadAllLines(@"D:\cvml\repos\TowerModeling\lines.csv");
+            string[] lines1 = System.IO.File.ReadAllLines("D:/cvml/repos/TowerModeling/data/lines.csv");
             foreach (string line in lines1)
             {
                 string[] line1 = line.Split(',');
@@ -36,7 +51,7 @@ namespace TowerModeling
 
             return lines;
         }
-        private void CreateTower(List<double[]> lines)
+        private Model3DGroup CreateTower(List<double[]> lines)
         {
             // 创建模型组
             Model3DGroup modelGroup = new Model3DGroup();
@@ -49,17 +64,12 @@ namespace TowerModeling
                 modelGroup.Children.Add(model);
             }
 
-            // 创建模型视图
-            ModelVisual3D modelVisual = new ModelVisual3D
-            {
-                Content = modelGroup
-            };
-            helixView.Children.Add(modelVisual);
-
+            return modelGroup;
         }
         // 创建角钢
-        private GeometryModel3D CreateAngelIron(double length = 5, double width = 1, double height = 300)
+        private GeometryModel3D CreateAngelIron(double height = 300)
         {
+            double length = 5, width = 1;
             // 创建材质
             Material material = new DiffuseMaterial(new SolidColorBrush(Colors.Silver));
             // 建模

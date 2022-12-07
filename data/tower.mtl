@@ -1,0 +1,415 @@
+newmtl mat1
+Kd 0.5020 0.5020 0.5020
+Tr 1.0000
+Ks 1.0000 1.0000 1.0000
+Ns 100.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 2
+newmtl mat2
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat3
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat4
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat5
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat6
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat7
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat8
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat9
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat10
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat11
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat12
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat13
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat14
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat15
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat16
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat17
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat18
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat19
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat20
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat21
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat22
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat23
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat24
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat25
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat26
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat27
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat28
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat29
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat30
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat31
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat32
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat33
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat34
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat35
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat36
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat37
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat38
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat39
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat40
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat41
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat42
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat43
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat44
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat45
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat46
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat47
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat48
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat49
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat50
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat51
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat52
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat53
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat54
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat55
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat56
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat57
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat58
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1
+newmtl mat59
+Kd 0.7529 0.7529 0.7529
+Tr 1.0000
+Ns 2
+Ni 1
+Tf 1 1 1
+illum 1

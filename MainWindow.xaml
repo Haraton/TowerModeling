@@ -21,8 +21,6 @@
             </h:HelixViewport3D.Camera>
             <!--添加属性元素——灯光-->
             <h:DefaultLights/>
-            <!--网格-->
-            <h:GridLinesVisual3D x:Name="GridLinesMe" Width="800" Length="800" MinorDistance="20" MajorDistance="20" Thickness="0.1"/>
 
         </h:HelixViewport3D>
     </Grid>
