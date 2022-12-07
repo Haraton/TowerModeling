@@ -58,8 +58,9 @@ namespace TowerModeling
 
         }
         // 创建角钢
-        private GeometryModel3D CreateAngelIron(double length = 5, double width = 1, double height = 300)
+        private GeometryModel3D CreateAngelIron(double height = 300)
         {
+            double length = 5, width = 1;
             // 创建材质
             Material material = new DiffuseMaterial(new SolidColorBrush(Colors.Silver));
             // 建模
