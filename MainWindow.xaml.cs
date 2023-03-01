@@ -50,18 +50,6 @@ namespace TowerModeling
                 i++;
             }
         }
-        //public void UISaveToPng(UIElement ui, string fileName)
-        //{
-        //    int width = (int)ui.RenderSize.Width;
-        //    int height = (int)ui.RenderSize.Height;
-        //    RenderTargetBitmap bmp = new RenderTargetBitmap(width, height, 96, 96, PixelFormats.Default);
-        //    bmp.Render(ui);
-        //    PngBitmapEncoder encoder = new PngBitmapEncoder();
-        //    encoder.Frames.Add(BitmapFrame.Create(bmp));
-        //    FileStream fs = new FileStream(fileName, FileMode.Create);
-        //    encoder.Save(fs);
-        //    fs.Close();
-        //}
 
 
         // 读取csv文件
