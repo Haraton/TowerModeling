@@ -1,4 +1,4 @@
-﻿<Window x:Class="TowerModeling.MainWindow"
+<Window x:Class="TowerModeling.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -17,7 +17,7 @@
                                CoordinateSystemLabelZ="z">
             <!--添加内容元素——相机-->
             <h:HelixViewport3D.Camera >
-                <PerspectiveCamera Position="-20 -40 20" LookDirection="17 34 -17" UpDirection="0 0 1" />
+                <PerspectiveCamera Position="20 0 20" LookDirection="17 5 -10" UpDirection="0 0 1" />
             </h:HelixViewport3D.Camera>
             <!--添加属性元素——灯光-->
             <h:DefaultLights/>
